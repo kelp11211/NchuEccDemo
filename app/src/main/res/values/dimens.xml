@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="padding">8dp</dimen>
+    <dimen name="margin">16dp</dimen>
+
+    <dimen name="font_text_size_16">16sp</dimen>
+    <dimen name="font_text_size_18">18sp</dimen>
+    <dimen name="font_text_size_20">20sp</dimen>
+    <dimen name="font_text_size_24">24sp</dimen>
+
+    <dimen name="button_width">300dp</dimen>
+</resources>

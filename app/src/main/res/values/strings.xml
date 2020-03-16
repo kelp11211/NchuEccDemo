@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">興大碳幣Demo</string>
+    <!-- Menu action -->
+    <string name="action_user">使用者</string>
+    <string name="action_store">商家</string>
+    <string name="action_nchu">興大</string>
+    <string name="action_settings">設定</string>
+    <!-- Main Button -->
+    <string name="button_user">使用者模式</string>
+    <string name="button_store">商家模式</string>
+    <string name="button_nchu">興大模式</string>
+    <!-- User Button -->
+    <string name="button_user_case">選擇旅遊方案</string>
+    <string name="button_user_spend">消費掃碼</string>
+    <string name="button_user_transfer">轉帳</string>
+    <!-- User Button -->
+    <string name="button_store_qrcode">二維條碼</string>
+    <string name="button_store_spend">碳幣清算</string>
+    <string name="button_store_transfer">轉帳</string>
+    <!-- Nchu Button -->
+    <string name="button_nchu_notify">確認通知</string>
+    <!-- User Hint -->
+    <string name="hint_user_money">請輸入消費金額</string>
+    <!-- Nchu Hint -->
+    <string name="hint_nchu_phone">請輸入電話號碼</string>
+    <!-- -->
+    <string name="image_content_description_bike">Bike</string>
+    <string name="image_content_description_user">User</string>
+    <string name="image_content_description_store">Store</string>
+    <string name="image_content_description_wallet">Wallet</string>
+    <!-- Activity Title -->
+    <string name="title_activity_user">使用者</string>
+    <string name="title_activity_store">商家</string>
+    <string name="title_activity_nchu">興大</string>
+    <!-- Label -->
+    <string name="label_address">錢包</string>
+    <string name="label_token">餘額</string>
+
+    <!-- User Dialog -->
+    <string name="user_dialog_title">請選擇旅遊方案</string>
+    <string-array name="list_case">
+        <item>400元/4小時/1台</item>
+        <item>500元/5小時/1台</item>
+        <item>600元/6小時/1台</item>
+    </string-array>
+</resources>

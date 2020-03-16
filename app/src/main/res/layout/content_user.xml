@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_user"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".UserActivity"
+    tools:showIn="@layout/activity_user">
+
+    <ImageView
+        android:id="@+id/image_user"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/action_user"
+        app:srcCompat="@drawable/user" />
+
+    <LinearLayout
+        android:id="@+id/layout_user_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding"
+        android:background="#FFFF8D"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding">
+
+        <TextView
+            android:id="@+id/label_user_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/label_address"
+            android:textSize="@dimen/font_text_size_20" />
+
+        <TextView
+            android:id="@+id/text_user_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:gravity="center"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_user_token"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding"
+        android:background="#FFFF8D"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding">
+
+        <TextView
+            android:id="@+id/label_user_token"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/label_token"
+            android:textSize="@dimen/font_text_size_20" />
+
+        <TextView
+            android:id="@+id/text_user_token"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:textSize="@dimen/fab_margin" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_user_case"
+        style="@style/button_style"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginBottom="32dp"
+        android:padding="@dimen/margin"
+        android:text="@string/button_user_case"
+        android:textSize="@dimen/font_text_size_20" />
+
+    <Button
+        android:id="@+id/button_user_scan"
+        style="@style/button_style"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginBottom="32dp"
+        android:padding="@dimen/margin"
+        android:text="@string/button_user_spend"
+        android:textSize="@dimen/font_text_size_20" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding">
+
+        <EditText
+            android:id="@+id/input_user_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:ems="10"
+            android:hint="@string/hint_user_money"
+            android:inputType="numberDecimal"
+            android:textSize="@dimen/font_text_size_16" />
+
+        <Button
+            android:id="@+id/button_user_transfer"
+            style="@style/button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="@string/button_user_transfer"
+            android:textSize="@dimen/font_text_size_18" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_to_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/padding"
+        android:textSize="@dimen/font_text_size_16" />
+
+</LinearLayout>
